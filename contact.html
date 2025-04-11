@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <form 
+    action="mailto:asdfg@informartion.com"
+    method="post"
+    enctype="text/plain"
+    >
+    
+    <fieldset> 
+        <legend>Personal Details</legend>
+        
+        <label for="FirstName">First Name</label>
+        <input type="text" id="Firstname" name="Firstname" 
+        placeholder="Aaron" required>
+        
+        <br>
+        
+        <label for="LastName">Last Name</label>
+        <input type="text" id="LastName" name="LastName" 
+        placeholder="smith" required>
+        
+        <br>
+        
+        <p>Age</p>
+        
+        <input type="radio" name="age" id="age1">
+        <label for="age1">15-18</label>
+        
+        <br>
+        
+        <input type="radio" name="age" id="age2">
+        <label for="age2">19-25</label>
+        
+        <br>
+        
+        <input type="radio" name="age" id="age3">
+        <label for="age3">26-40</label>
+        
+        <br>
+        
+        <input type="radio" name="age" id="age4">
+        <label for="age4">41+</label>
+    </fieldset>
+    
+    <br>
+    
+    <fieldset>
+        
+        <legend>Contact Informartion</legend>
+        
+        <fieldset>
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"
+            placeholder="joeborg@gmail.com" required>
+            
+            <br>
+            
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="9999 9999"
+            required pattern="[0-9]{4} [0-9]{4}">
+
+            <br>
+
+            <input type="checkbox" name="offers" id="offers">
+            <label for="offers">Contact me about new offers</label>
+        </fieldset>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Messasge details</legend>
+            <select name="department" id="department">
+                <option value="" selected disabled>
+                    Please Select Department
+                </option>
+                <option value="1">Custom Support</option>
+                <option value="2">techincal Support</option>
+            </select>
+
+            <br>
+
+            <label for="Messsage">Messsage</label>
+            <textarea name="Messasge" id="Messasge" placeholder="I have a problem with my account....." cols="30" rows="10"></textarea>
+    </fieldset>
+    
+    <br>
+    
+    <button type="submit">submit</button>
+    <button type="reset">Cancel</button>
+    
+</form>
+
+</body>
+</html>

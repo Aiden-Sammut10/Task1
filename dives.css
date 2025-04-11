@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: azure;
+    border: black solid 1px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.imp{
+    background-color: aliceblue;
+    color: gray;
+}
+
+.flexbox{
+    display: flex;
+    background-color: transparent;
+    border: none;
+}
+
+.menu{
+    background-color: lightgreen;
+    text-align: center;
+    margin: auto;
+}
